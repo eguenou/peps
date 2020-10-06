@@ -819,15 +819,17 @@ The following naming styles are commonly distinguished:
 - ``lower_case_with_underscores``
 - ``UPPERCASE``
 - ``UPPER_CASE_WITH_UNDERSCORES``
-- ``CapitalizedWords`` (or CapWords, or CamelCase -- so named because
-  of the bumpy look of its letters [4]_).  This is also sometimes known
+- ``CapitalizedWords`` (or CapWords, or UpperCamelCase 
+  or PascalCase -- so named because in the naming convention
+  of Pascal programming language [7]_).  This is also sometimes known
   as StudlyCaps.
 
   Note: When using acronyms in CapWords, capitalize all the
   letters of the acronym.  Thus HTTPServerError is better than
   HttpServerError.
 - ``mixedCase`` (differs from CapitalizedWords by initial lowercase
-  character!)
+  character, also known as CamelCase -- so named because
+  of the bumpy look of its letters [4]_)
 - ``Capitalized_Words_With_Underscores`` (ugly!)
 
 There's also the style of using a short unique prefix to group related
@@ -1521,6 +1523,11 @@ References
 
 .. [6] Suggested syntax for Python 2.7 and straddling code
    https://www.python.org/dev/peps/pep-0484/#suggested-syntax-for-python-2-7-and-straddling-code
+   
+.. [7] Naming conventions
+   https://en.wikipedia.org/wiki/Naming_convention_(programming)#Pascal,_Modula-2_and_Oberon
+   Pascal case
+   https://en.wiktionary.org/wiki/Pascal_case
 
 
 Copyright
